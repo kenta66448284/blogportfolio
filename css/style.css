@@ -1,0 +1,866 @@
+@charset "utf-8";
+/*共通部分 */
+body{
+    font-size: 14px;
+    background-color: #fff;
+    font-family: "Helvetica Neue","Yu Gothic", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Meiryo", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+    list-style-position: inside;
+}
+.inner{
+    text-align: center;
+    width: 85.5%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.groupline{
+    border-bottom: #008464 4px solid;
+}
+.addtoany_shortcode{
+    margin: 20px 0;
+}
+/* header */
+header{
+    background-color: #299d84;
+}
+header .inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.headgazou{
+    width: 93px;
+    height: 79px;
+}
+.headertitle{
+    color: #fff;
+    text-decoration: none;
+}
+/* main */
+/* icon */
+nav ul{
+    display: flex;
+}
+.fastnav{
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.fastnav nav ul li{
+    margin-left: 20px;
+}
+
+/* index.html */
+
+.grouplist{
+    width: 90%;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #000 0.5px solid;
+}
+
+
+
+
+.archive-title{
+        margin: 20px 0;
+        text-align: center;
+    }
+.blogcategory{
+    text-align: right;
+}
+.blogcategory a{
+    background-color: #D9D9D9;
+    color: #000;
+    text-decoration: none;
+    text-align: right;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+/* 記事ページ */
+h3{
+    font-size: 15px;
+    margin: 10px 0 15px;
+    text-align: left;
+}
+.naiyou .inner{
+    text-align: center;
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.naiyou article p{
+    text-align: left;
+}
+.more a{
+    margin: 10px 0 30px;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: red;
+}
+.more a:hover{
+    color: aqua;
+}
+.article-image{
+    display: flex;
+    justify-content: flex-end;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.tititle{
+    text-align: left;
+}
+.tititle a{
+    border-left: #000 solid 3px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+}
+.article-image img{
+    height: auto;
+    width: 100%;
+}
+.btiem{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: light;
+}
+
+.naiyou .inner article{
+    margin-bottom: 45px;
+}
+/* 数字ボタンの所 */
+.naiyou nav{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.naiyou ul{
+    justify-content: center;
+}
+.naiyou li{
+    margin: 0 10px;
+}
+
+.nav-links .page-numbers {
+    margin:0 5px;
+    padding-top: 3px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #299d84;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+/* worksアーカイブ */
+.worksflex .blogitem article{
+    width: 45%;
+}
+.worksflex .blogitem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.workstitle{
+    text-align: center;
+    margin: 50px 0 30px;
+}
+/* footer */
+footer{
+    color: #fff;
+    background-color: #299d84;
+}
+.profile{
+    width: 98%;
+    margin-top: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+
+.profile p :first-child{
+    margin: 20px 0;
+}
+.profile1{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.group{
+    margin-left: 20px;
+}
+
+.grouptext{
+    text-align: center;
+    color: #A6A6A6;
+}
+.groupcolor{
+    color: #008464;
+    font-weight: bold;
+}
+.grouplink{
+    text-decoration: none;
+}
+/* .iconimg{
+    width: 30px;
+} */
+.profile2 p{
+    text-align: left;
+}
+.iconitem:nth-child(2){
+    margin-left: 30px;
+}
+
+.tyanto{
+    margin-bottom: 20px;
+}
+.category li a{
+    color: #fff;
+    display: block;
+    margin: 20px 0 20px;
+    text-decoration: none;
+}
+.cat-item a:hover{
+    color: red;
+}
+.category h3{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* .category :nth-child(1){
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+} */
+/* コピーライト */
+small{
+    display: inline-block;
+    margin: 20px 0 20px;
+}
+@media(min-width:600px){
+    /* index.html */
+    .inner{
+    text-align: center;
+    width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+
+    h3{
+        width: 100%;
+    }
+
+    .slider img{
+        width: 500px;
+        height: auto;
+    }
+    header img{
+        zoom: 2;
+    }
+    h1 a img{
+        zoom: 1;
+    }
+    main .fa{
+        zoom: 1.5;
+    }
+
+    .contents{
+        zoom: 2;
+    }
+    .naiyou .inner{
+        justify-content: space-between;
+        width: 65%;
+        display: flex;
+
+    }
+    .naiyou .inner article{
+        text-align: center;
+        width: 80%;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .profile{
+        margin-top: 50px;
+        width: 75%;
+    }
+    .profile1{
+        width: 70%;
+    }
+    .grouplist{
+        width: 60%;
+    }
+    .grouplist{
+        width: 70%;
+        margin: 20px auto 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: #000 0.5px solid;
+    }
+    .groupitem{
+        margin-right: 40px;
+    }
+    .pcfooter .category{
+        margin-top: 50px;
+    }
+    /* .category :nth-child(1){
+        padding-top: 0;
+    } */
+
+    .article-image{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content: flex-end;
+    }
+
+    .category h3{
+        padding-top: 0;
+    }
+    .pcfooter{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links .page-numbers {
+    zoom: 1.5;
+    margin:0 5px;
+    padding-top: 3px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #299d84;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+    /* .naiyou .article-image{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+    width: 300px;
+    height: 200px;
+    max-width: initial;
+    background-position: center center;
+    background-size: cover;
+} */
+}
+/* single.html */
+
+.single{
+    text-align: left;
+}
+.single h1 .breadcrumbs span{
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    }
+.single h1 .breadcrumbs span a{
+    text-decoration: none;
+}
+.single h1 .breadcrumbs :last-child{
+    color: #50b19c;
+}
+.entry-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+}
+.time{
+    display: flex;
+    justify-content: left;
+}
+.time p{
+    margin: 0;
+}
+.time :first-child{
+    margin-right: 20px;
+}
+.single h2{
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 16px;
+}
+.pagearticle p{
+    margin: 30px 0 20px;
+}
+
+.pagearticle h2{
+    color: #fff;
+    margin: 25px 0 25px;
+    padding: 10px;
+    background-color: #50b19c;
+}
+.pagearticle h3{
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #56887e;
+    border-radius: 10px;
+}
+.workssingle h3{
+    color: #000;
+    padding: 0px;
+    background-color: #fff;
+}
+.time{
+    margin-bottom: 50px;
+}
+
+.entry-content img{
+    height: auto;
+}
+.entry-content ol li{
+    margin: 10px 0;
+    list-style: inherit;
+    list-style-position: inside;
+}
+.entry-content p{
+    line-height: 175%;
+    font-size: 16px;
+    width: 100%;
+}
+.singlepage{
+    margin: 50px 0;
+}
+.singlepage .nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+.singlepage .nav-links a{
+    color: #50b19c;
+    text-decoration: none;
+}
+.singlepage .nav-links a:hover{
+    color: #000;
+}
+
+.pagearticle .article-image{
+    display: block;
+}
+
+.entry-content img{
+    display: block;
+    width: 100%;
+}
+
+.wp-caption.alignnone{
+    width: 100% !important;
+}
+
+#toc_container{
+    text-align: center;
+    margin: 40px auto;
+}
+figcaption{
+    color: gray;
+    text-align: center;
+}
+
+
+
+/* .comment */
+.comment h3{
+    font-size: 24px;
+    padding: 0;
+    margin-top: 0;
+    color: #000;
+    font-size: 24px;
+    background-color: #eefffc;
+}
+
+.comment-form{
+    background-color: #fff;
+    border: 1px solid #50b19c;
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 10px;
+}
+.comment-author img{
+    margin-top: 0;
+}
+.comment-reply-title{
+    margin-top: 20px;
+}
+.comment-form-comment label{
+    margin: 10px 0 10px 20px;
+    color: #50b19c;
+}
+.comment-form textarea{
+    display: block;
+    margin-left: 20px;
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #000;
+    border: 1px solid #50b19c;
+    box-shadow: 1px 1px 2px 0 #50b19c inset;
+    border-radius: 4px;
+}
+.comment-form-author input{
+    display: block;
+    margin-left: 20px;
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #000;
+    border: 1px solid #50b19c;
+    box-shadow: 1px 1px 2px 0 #50b19c inset;
+    border-radius: 4px;
+}
+.comment-form-author label{
+    margin: 10px 0 10px 20px;
+    color: #50b19c;
+}
+.comment-form-email label{
+    margin: 10px 0 10px 20px;
+    color: #50b19c;
+}
+.comment-form-email input{
+    display: block;
+    margin-left: 20px;
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #000;
+    border: 1px solid #50b19c;
+    box-shadow: 1px 1px 2px 0 #50b19c inset;
+    border-radius: 4px;
+}
+.comment-form-author label{
+    margin: 10px 0 10px 20px;
+    color: #50b19c;
+}
+.comment-form-url label{
+    margin: 10px 0 10px 20px;
+    color: #50b19c;
+}
+.comment-form-url input{
+    display: block;
+    margin-left: 20px;
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #000;
+    border: 1px solid #50b19c;
+    box-shadow: 1px 1px 2px 0 #50b19c inset;
+    border-radius: 4px;
+}
+
+.comment-body{
+    background-color: #fff;
+    padding: 20px 40px;
+
+}
+.comment.byuser.comment-author-kenta_blog.bypostauthor{
+    margin-top: 30px;
+}
+
+.form-submit{
+    text-align: right;
+}
+.form-submit input{
+    text-align: center;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #50b19c;
+}
+.form-submit input:hover{
+    color: chartreuse;
+}
+table{
+    border: 1px solid #000;
+}
+table th, table td{
+    border: solid 1px #000;
+}
+table th{
+    padding: 10px;
+}
+table td{
+    padding: 3px 10px;
+}
+
+blockquote {
+    position: relative;
+    padding: 10px 15px 10px 60px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #f5f5f5;
+    color: #777777;
+    border-left: 4px solid #50b19c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    content: "“";
+    font-family: sans-serif;
+    color: #50b19c;
+    font-size: 90px;
+    line-height: 1;
+}
+
+blockquote p {
+    padding: 0;
+    margin: 7px 0;
+    line-height: 1.7;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+.colum{
+    display: none;
+}
+/* purofilepage */
+.inner .profilepage{
+    display: block;
+}
+.profilepage .entry-title{
+    text-align: center;
+}
+.profilebox .entry-title{
+    margin: 50px 0;
+}
+.profileblock h2{
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.profileblock h3{
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.profileblock ul li{
+    list-style: disc;
+    list-style-position: inside;
+    
+}
+/*スマホ横並び維持*/
+.ath-colfix{
+    flex-wrap:nowrap;
+    }
+    @media (max-width: 599px){
+    .ath-colfix .wp-block-column:not(:first-child) {
+        margin-left: 5px;
+    }
+    }
+/*workspage*/
+.wrokstitle .tititle a{
+    padding-left: 0px;
+    border-left: 0px;
+}
+.works__category{
+    display: inline-block;
+    
+    background-color: #008464;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.works__category a{
+    color: #fff;
+    text-decoration: none;
+}
+.categorylist{
+    display: flex;
+}
+.workskicon{
+    display: flex;
+}
+.workskicon li img{
+    width: 50px;
+}
+.workskicon li{
+    margin: 0;
+}
+/*works作品*/
+.workssingle .pagearticle h2{
+    color: #000;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 0px;
+    text-align: center;
+    
+}
+@media(min-width:600px){
+    .inner{
+        width: 70%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .single{
+        width: 100%;
+    }
+    .colum{
+        display: initial;
+    }
+    .colum2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .colum2 section{
+        display: inline;
+        width: 50%;
+    }
+    .colum  section article{
+        width: 250px;
+        color: #fff;
+        background-color: #50b19c;
+    }
+    .colum section article:last-child{
+        margin-top: 50px;
+    }
+    .colum section article a{
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 20px 30px;
+    }
+    .big{
+        padding: 25px 0 15px;
+        font-size: 24px;
+    }
+    .archive{
+        text-align: left;
+    }
+    .sidebarcategory .colum .wp-block-group .wp-block-group__inner-container{
+        margin-bottom: 30px;
+        background-color: #fff;
+    }
+    .singleslider .colum .wp-block-group .wp-block-group__inner-container{
+        margin-bottom: 30px;
+        background-color: #fff;
+    }
+    .blogedhiter .colum .wp-block-group .wp-block-group__inner-container h2{
+        margin: 0;
+        color: #299d84;
+        text-align: left;
+        padding: 25px 0 15px;
+        font-size: 22px;
+    }
+    .singleslider .colum .wp-block-group .wp-block-group__inner-container h2{
+        margin-bottom: 10px;
+        border-bottom: 1px #299d84 solid;
+        color: #299d84;
+        text-align: left;
+        padding: 0 20px;
+        font-size: 20px;
+    }
+    
+    .singleslider .colum .sidebarcategory{
+        display: flex;
+    }
+    .singleslider .colum{
+        margin-left: 60px;
+    }
+    .footercategory .category .wp-block-group .wp-block-group__inner-container h3{
+        display: inline;
+        font-size: 18px;
+    }
+    .wp-block-group__inner-container a{
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+    }
+    .wp-block-group__inner-container a:hover{
+        color: red;
+    }
+    .wp-block-group__inner-container li{
+        color: #000;
+        list-style: disc;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    .footercategory:nth-last-child() .colum .wp-block-group{
+        display: none;
+    }
+    /* プロフィール */
+    .profilebox .entry-title{
+        text-align: center;
+    }
+    .profilebox .pagearticle {
+        margin: 0 auto;
+    }
+    .profilebox{
+        width: 65%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    /* worksアーカイブ */
+    
+    .worksflex .blogitem article{
+        width: 40%;
+        margin-bottom: 80px;
+    }
+    /*works作品*/
+    .workssingle .pagearticle h2{
+        text-align: left;
+
+    }
+}
