@@ -66,7 +66,7 @@ endif;
 <header>
     <?php get_template_part('ogp') ?>
         <div class="inner">
-            <h1><a class="headertitle" href="https://kentalog.work/portfolio/">masuda portfolio&blog</a></h1>
+            <h1><a class="headertitle" href="https://kentalog.work/portfolio/">masuda portfolio & blog</a></h1>
         </div>
         
 </header>

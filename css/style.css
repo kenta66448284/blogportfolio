@@ -19,6 +19,9 @@ li{
     max-width: 100%;
     margin: 0 auto;
 }
+.groupnotline{
+    border-bottom:#fff 4px solid;
+}
 .groupline{
     border-bottom: #008464 4px solid;
 }
@@ -32,14 +35,11 @@ header{
 header .inner{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding: 20px 0 25px;
     margin-bottom: 50px;
     align-items: center;
 }
-.headgazou{
-    width: 93px;
-    height: 79px;
-}
+
 .headertitle{
     color: #fff;
     text-decoration: none;
@@ -62,7 +62,7 @@ nav ul{
 
 .grouplist{
     width: 90%;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,9 +137,11 @@ h3{
     display: block;
 }
 .article-image img{
+    border: 1px #cdcdcd solid;
     height: auto;
     width: 100%;
 }
+
 .btiem{
     margin-top: 10px;
     font-size: 12px;
@@ -184,12 +186,41 @@ h3{
 }
 .workstitle{
     text-align: center;
-    margin: 50px 0 30px;
+    margin: 50px 0;
+}
+.blogedhiter .colum .sidebarcategory .colum .list-custom-taxonomy-widget .sidebar-title{
+        color: #299d84;
+        text-align: left;
+        padding: 25px 0 15px;
+        font-size: 19px;
+        margin: 0 15px;
+} 
+.singleslider .colum .sidebarcategory .colum .list-custom-taxonomy-widget .sidebar-title{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border-bottom: 1px #299d84 solid;
+    color: #299d84;
+    text-align: left;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.cat-item{
+    color: #000;
+    list-style: inside;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.cat-item a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
 }
 /* footer */
 footer{
     color: #fff;
     background-color: #299d84;
+    margin-top: 150px;
 }
 .profile{
     width: 98%;
@@ -212,6 +243,9 @@ footer{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.profile1 img{
+    width: 100px;
 }
 
 
@@ -236,6 +270,12 @@ footer{
 .profile2 p{
     text-align: left;
 }
+.iconitem{
+    width: 25px;
+}
+.iconbox{
+    margin-top: 15px;
+}
 .iconitem:nth-child(2){
     margin-left: 30px;
 }
@@ -257,6 +297,20 @@ footer{
     padding-top: 30px;
     font-weight: bold;
     font-size: 18px;
+}
+/*profile*/
+.wp-container-2{
+    width: 60%;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+}
+.wp-container-4{
+    width: 60%;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+}
+.wp-block-gallery.has-nested-images figure.wp-block-image img{
+    max-width: 50px !important;
 }
 
 /* .category :nth-child(1){
@@ -318,19 +372,27 @@ small{
     .profile1{
         width: 70%;
     }
+    .profile1 img{
+        width: 140px;
+    }
     .grouplist{
         width: 60%;
     }
     .grouplist{
         width: 70%;
-        margin: 20px auto 0;
+        margin: 60px auto 0;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         border-bottom: #000 0.5px solid;
     }
     .groupitem{
-        margin-right: 40px;
+        width: 20%;
+        margin-right: 5%;
+    }
+    .grouplink img{
+        display: block;
+        margin: 0 auto;
     }
     .pcfooter .category{
         margin-top: 50px;
@@ -399,15 +461,28 @@ small{
     font-size: 24px;
     color: #000;
 }
+.workssingle .entry-title{
+    margin-bottom: 40px;
+}
+.blogsingle .entry-title{
+    border-left: 3px #000 solid;
+    padding-left: 5px;
+    margin: 30px 0 5px;
+}
+.blogsingle .blogcategory{
+    margin-bottom: 30px;
+}
 .time{
     display: flex;
     justify-content: left;
 }
 .time p{
+    font-size: 11px;
     margin: 0;
 }
+
 .time :first-child{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .single h2{
     color: #fff;
@@ -416,7 +491,7 @@ small{
     font-size: 16px;
 }
 .pagearticle p{
-    margin: 30px 0 20px;
+    margin: 10px 0 20px;
 }
 
 .pagearticle h2{
@@ -427,7 +502,7 @@ small{
 }
 .pagearticle h3{
     color: #fff;
-    margin-top: 25px;
+    margin: 65px 0 15px;
     padding: 10px;
     background-color: #56887e;
     border-radius: 10px;
@@ -438,7 +513,7 @@ small{
     background-color: #fff;
 }
 .time{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .entry-content img{
@@ -718,11 +793,12 @@ blockquote cite {
     display: inline-block;
     
     background-color: #008464;
-    margin: 10px 0;
+    margin: 30px 0 5px;
     padding: 5px 10px;
     border-radius: 20px;
 }
 .works__category a{
+    font-size: 10px;
     color: #fff;
     text-decoration: none;
 }
@@ -742,7 +818,7 @@ blockquote cite {
 .workssingle .pagearticle h2{
     color: #000;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     padding: 0px;
     text-align: center;
     
@@ -762,6 +838,9 @@ blockquote cite {
     .colum2{
         display: flex;
         justify-content: space-around;
+    }
+    .page{
+        display: block;
     }
     .colum2 section{
         display: inline;
@@ -802,7 +881,8 @@ blockquote cite {
         color: #299d84;
         text-align: left;
         padding: 25px 0 15px;
-        font-size: 22px;
+        font-size: 19px;
+        margin: 0 15px;
     }
     .singleslider .colum .wp-block-group .wp-block-group__inner-container h2{
         margin-bottom: 10px;
@@ -833,7 +913,7 @@ blockquote cite {
     }
     .wp-block-group__inner-container li{
         color: #000;
-        list-style: disc;
+        list-style: inside;
         padding-bottom: 10px;
         text-align: left;
     }
@@ -852,6 +932,9 @@ blockquote cite {
         max-width: 100%;
         margin: 0 auto;
     }
+    .pro{
+        width: 100%;
+    }
     /* worksアーカイブ */
     
     .worksflex .blogitem article{
@@ -863,4 +946,26 @@ blockquote cite {
         text-align: left;
 
     }
+    .works__category a{
+        font-size: 14px;
+    }
+    .workssingle .article-image{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .entry-title{
+        margin-bottom: 100px;
+    }
+    /*blogsingle*/
+    .time p{
+        font-size: 12px;
+    }
+    .single .article-image{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .lkc-url{
+        margin: 5px 0 10px;
+    }
 }
+/*リンクカード設定*/

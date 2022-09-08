@@ -3,14 +3,14 @@
     <main <?php body_class('orignal_class'); ?>>
         <div class="inner">
 
-            <div class="colum2">
+            <div class="page">
                 <section>
                     <?php if (have_posts() ): ?>
                     <!-- もし、記事が1件以上あったら-->
                     <?php while (have_posts()):the_post(); ?>
                     <!-- 記事の表示条件で繰り返す（※個別投稿ページの場合は、1回）-->
                     <article <?php post_class("entry"); ?>> <!-- 特別なclassを付随させる -->
-                    <div class="single">
+                    <div class="single blogsingle">
                         <h1><div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
                         <?php if(function_exists('bcn_display'))
                             { bcn_display();}
@@ -30,6 +30,9 @@
                         <div class="time">
                             <p>投稿日: <?php the_time('Y年n月j日'); ?>  <?php the_time('g:i A'); ?><!-- 記事の投稿日 --></p>
                             <p>更新日: <?php the_modified_date(); ?>  <?php the_modified_time(); ?></p>
+                        </div>
+                        <div class="blogcategory">
+                            <?php echo get_the_term_list($post->ID, 'blogcat'); ?>
                         </div>
                         <div class="pagearticle">
                         <?php the_category(', ') ?>

@@ -88,7 +88,7 @@ function create_post_type() {
   );
 
   register_taxonomy(
-    'blog-cat',
+    'blogcat',
     'blog',
     array(
       'label' => '作品カテゴリー',
@@ -99,7 +99,7 @@ function create_post_type() {
   );
 
   register_taxonomy(
-    'blog-tag',
+    'blogtag',
     'blog',
     array(
       'label' => '作品タグ',
@@ -119,5 +119,6 @@ function change_posts_per_page($query) {
   }
 }
 add_action( 'pre_get_posts', 'change_posts_per_page' );
+
 
 //わざと閉じていない

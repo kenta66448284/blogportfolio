@@ -3,7 +3,7 @@
     <main <?php body_class('orignal_class'); ?>>
         <div class="inner">
 
-            <div class="colum2">
+            <div class="page">
                 <section>
                     <?php if (have_posts() ): ?>
                     <!-- もし、記事が1件以上あったら-->

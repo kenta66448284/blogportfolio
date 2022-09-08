@@ -2,18 +2,18 @@
     <?php get_header(); ?>
     <main>
         <div class="profile1">
-            <img src="<?php echo esc_url(get_theme_file_uri('./images/profilefoto.png')); ?>">
+            <img src="<?php echo esc_url(get_theme_file_uri('./images/myprofile.png')); ?>">
             <div class="group">
                 <div class="profile2">
                     <p>kenta</p>
                 </div>
                 <div class="profile2">
-                    <p>ライブに行こことが生きがいです。</p>
+                    <p>ライブに行くことが生きがいです。</p>
                     <p>フロントエンド・マークアップエンジニア志望</p>
                     <nav>
-                    <ul>
-                        <li class="iconitem"><a href="https://twitter.com/kenta_tnpr"><img class="iconimg" src="<?php echo esc_url(get_theme_file_uri('./images/Twitter social icons2.png')); ?>"></a></li>
-                        <li class="iconitem"><a href="https://github.com/kenta66448284"><img class="iconimg" src="<?php echo esc_url(get_theme_file_uri('./images/Vector.png')); ?>"></a>
+                    <ul class="iconbox">
+                        <li class="iconitem"><a href="https://twitter.com/kenta_tnpr"><img class="iconimg" src="<?php echo esc_url(get_theme_file_uri('./images/iconmonstr-twitter-1 1.png')); ?>"></a></li>
+                        <li class="iconitem"><a href="https://github.com/kenta66448284"><img class="iconimg" src="<?php echo esc_url(get_theme_file_uri('./images/iconmonstr-github-1 1.png')); ?>"></a>
                         </li>
                     </ul>
                 </nav>
@@ -27,13 +27,13 @@
                 <p class="grouptext groupcolor">works</p>
                 </a>
             </div>
-            <div class="groupitem">
+            <div class="groupitem groupnotline">
                 <a class="grouplink" href="https://kentalog.work/portfolio/blog/">
                 <img src="<?php echo esc_url(get_theme_file_uri('./images/Frame.png')); ?>">
                 <p class="grouptext">blog</p>
                 </a>
             </div>
-            <div class="groupitem">
+            <div class="groupitem groupnotline">
                 <a class="grouplink" href="https://kentalog.work/portfolio/profile/">
                 <img src="<?php echo esc_url(get_theme_file_uri('./images/aboutgray.png')); ?>">
                 <p class="grouptext">about</p>

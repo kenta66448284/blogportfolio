@@ -8,7 +8,7 @@
                     <p>kenta</p>
                 </div>
                 <div class="profile2">
-                    <p>ライブに行こことが生きがいです。</p>
+                    <p>ライブに行くことが生きがいです。</p>
                     <p>フロントエンド・マークアップエンジニア志望</p>
                     <nav>
                     <ul>
@@ -21,13 +21,13 @@
             </div>
         </div>
         <div class="grouplist">
-            <div class="groupitem">
+            <div class="groupitem groupnotline">
                 <a class="grouplink" href="https://kentalog.work/portfolio/">
                 <img src="<?php echo esc_url(get_theme_file_uri('./images/workgary.png')); ?>">
                 <p class="grouptext">works</p>
                 </a>
             </div>
-            <div class="groupitem">
+            <div class="groupitem groupnotline">
                 <a class="grouplink" href="https://kentalog.work/portfolio/blog/">
                 <img src="<?php echo esc_url(get_theme_file_uri('./images/Frame.png')); ?>">
                 <p class="grouptext">blog</p>
@@ -40,7 +40,7 @@
                 </a>
             </div>
         </div>
-        <div class="inner ">
+        <div class="inner pro">
 
             <div class="colum2 profilepage">
                 <section>
