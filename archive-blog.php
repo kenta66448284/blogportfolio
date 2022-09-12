@@ -1,25 +1,7 @@
     <!-- header -->
     <?php get_header(); ?>
     <main>
-        <div class="profile1">
-            <img src="<?php echo esc_url(get_theme_file_uri('./images/profilefoto.png')); ?>">
-            <div class="group">
-                <div class="profile2">
-                    <p>kenta</p>
-                </div>
-                <div class="profile2">
-                    <p>ライブに行くことが生きがいです。</p>
-                    <p>フロントエンド・マークアップエンジニア志望</p>
-                    <nav>
-                    <ul class="iconbox">
-                        <li class="iconitem"><a href="https://twitter.com/kenta_tnpr"><img class="iconimg" src="<?php echo esc_url(get_theme_file_uri('./images/iconmonstr-twitter-1 1.png')); ?>"></a></li>
-                        <li class="iconitem"><a href="https://github.com/kenta66448284"><img class="iconimg" src="<?php echo esc_url(get_theme_file_uri('./images/iconmonstr-github-1 1.png')); ?>"></a>
-                        </li>
-                    </ul>
-                </nav>
-                </div>
-            </div>
-        </div><div class="profile1">
+    <div class="profile1">
             <img src="<?php echo esc_url(get_theme_file_uri('./images/myprofile.png')); ?>">
             <div class="group">
                 <div class="profile2">
