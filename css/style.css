@@ -500,7 +500,7 @@ small{
     margin-right: 10px;
 }
 .breadcrumbs{
-    margin-bottom: 35px;
+    margin: 35px 0;
 }
 .single h2{
     color: #fff;
@@ -914,9 +914,7 @@ blockquote cite {
     .singleslider .colum .sidebarcategory{
         display: flex;
     }
-    .singleslider .colum{
-        margin-left: 60px;
-    }
+    
     .footercategory .category .wp-block-group .wp-block-group__inner-container h3{
         display: inline;
         font-size: 18px;

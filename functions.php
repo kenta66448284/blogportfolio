@@ -88,7 +88,7 @@ function create_post_type() {
   );
 //カスタムタクソノミー(カテゴリー)追加の処理
   register_taxonomy(
-    'blogcat',カテゴリーの名前の設定
+    'blogcat',//カテゴリーの名前の設定
     'blog',//カテゴリーを追加したいカスタム投稿タイプ名(今回の場合7行目のblog)
     array(
       'label' => '作品カテゴリー',//管理画面で表示される文字の設定
@@ -100,7 +100,7 @@ function create_post_type() {
 //カスタムタクソノミー(タグ)追加の処理
   register_taxonomy(
     'blogtag',//タグの名前の設定
-    'blog',//タグを追加したいカスタム投稿タイプ名(今回の場合7行目のblog)
+    'blog',//タグを追加したいカスタム投稿タイプ名(今回の場合)
     array(
       'label' => '作品タグ',//管理画面で表示される文字の設定
       'hierarchical' => false,
