@@ -1,6 +1,7 @@
     <!-- header -->
     <?php get_header(); ?>
     <main <?php body_class('orignal_class'); ?>>
+    <div class="blogpage">
         <div class="inner">
 
             <div class="page">
@@ -28,7 +29,7 @@
                         
                             <article id="post-<?php the_ID(); ?>" <?php post_class("entry"); ?>class="entry">
                     
-                            <div class="entry-content">
+                            <div class="entry-content workstable">
                             <?php the_content( ); ?><!-- 記事の内容 -->
                                    
                         </div>
@@ -48,7 +49,7 @@
                 </section>
                 
             </div>
-            
+            </div>
         </div>
     </main>
     <?php get_footer(); ?>

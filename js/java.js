@@ -1,13 +1,32 @@
+// let groupitem=document.querySelectorAll(".groupitem");
+// let groptext = document.querySelectorAll(".grouptext");
+// let groupimg = document.querySelectorAll(".groupimg")
+// console.log(groupitem)
+// window.addEventListener("load",function(){
+//     let url = location.href;
+//     console.log(url)
+//     if(url=="http://localhost/blogportfolio/"){
+//         groupitem[0].classList.add('groupline')
+//         groptext[0].classList.add('groupcolor')
+//         groupitem[1].classList.add('groupnotline')
+//         groupitem[2].classList.add('groupnotline')
+//         console.log("これは作品ページだ！")
+//     }else if(url=="http://localhost/blogportfolio/blog/"){
+//         groupitem[0].classList.add('groupnotline')
+//         groupitem[1].classList.add('groupline')
+//         groptext[1].classList.add('groupcolor')
+//         groupitem[2].classList.add('groupnotline')
+//         groupimg[0].setAttribute("src","./images/workgray.svg")
+//         groupimg[1].setAttribute("src","./images/blogcolor.svg")
+//         console.log("これはブログページだ！")
+//     }else{
+//         console.log("これはプロフィールページだ！")
+//         groupitem[0].classList.add('groupnotline')
+//         groupitem[1].classList.add('groupnotline')
+//         groupitem[2].classList.add('groupline')
+//         groptext[2].classList.add('groupcolor')
+//         groupimg[0].setAttribute("src","./images/workgray.svg")
+//         groupimg[2].setAttribute("src","./images/blogcolor.svg")
+//     }
+// })
 
-$('.slider').slick({
-    autoplay: true,//自動的に動き出すか。初期値はfalse。
-    infinite: true,//スライドをループさせるかどうか。初期値はtrue。
-    speed: 700,//スライドのスピード。初期値は300。
-    slidesToShow: 3,//スライドを画面に3枚見せる
-    slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
-    prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
-    nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
-    centerMode: true,//要素を中央ぞろえにする
-    variableWidth: true,//幅の違う画像の高さを揃えて表示
-    dots: false,//下部ドットナビゲーションの表示
-});

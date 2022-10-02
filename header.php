@@ -62,11 +62,14 @@ endif;
 
 <body <?php body_class('orignal_class'); ?>>
     <?php wp_body_open(); ?>
+    <?php get_template_part('ogp') ?>
 
 <header>
-    <?php get_template_part('ogp') ?>
-        <div class="inner">
-            <h1><a class="headertitle" href="https://kentalog.work/portfolio/">masuda portfolio & blog</a></h1>
+
+        <div class="headerbg">
+            <div class="inner">
+                <h1><a class="headertitle" href="https://kentalog.work/portfolio/">masuda portfolio & blog</a></h1>
+            </div>
         </div>
         
 </header>

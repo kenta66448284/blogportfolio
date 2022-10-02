@@ -1,6 +1,7 @@
     <!-- header -->
     <?php get_header(); ?>
     <main <?php body_class('orignal_class'); ?>>
+    <div class="blogpage">
         <div class="inner">
 
             <div class="page">
@@ -63,6 +64,7 @@
             <div class="singleslider">
                 <?php get_sidebar(); ?>
                 </div>
+        </div>
         </div>
     </main>
     <?php get_footer(); ?>

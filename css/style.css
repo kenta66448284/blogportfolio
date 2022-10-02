@@ -19,30 +19,39 @@ li{
     max-width: 100%;
     margin: 0 auto;
 }
-.groupnotline{
-    border-bottom:#fff 4px solid;
+.blogpage .inner{
+    max-width: 800px;
 }
+/* .groupnotline{
+    border-bottom:#fff 4px solid;
+} */
 .groupline{
-    border-bottom: #008464 4px solid;
+    border-bottom: #008464 5px solid;
 }
 .addtoany_shortcode{
     margin: 20px 0;
 }
 /* header */
 header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+header .headerbg{
     background-color: #299d84;
 }
-header .inner{
-    display: flex;
-    justify-content: space-between;
+.headerbg .inner{
     padding: 20px 0 25px;
-    margin-bottom: 50px;
-    align-items: center;
+    text-align: left;
 }
 
 .headertitle{
     color: #fff;
     text-decoration: none;
+}
+.profile1{
+    padding-top: 30px;
+    background-color: #fff;
 }
 /* main */
 /* icon */
@@ -150,6 +159,9 @@ h3{
 
 .naiyou .inner article{
     margin-bottom: 45px;
+}
+.workstable .wp-block-table{
+    max-width: 500px;
 }
 /* 数字ボタンの所 */
 .naiyou nav{
@@ -277,7 +289,7 @@ footer{
     margin-top: 15px;
 }
 .iconitem:nth-child(2){
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .tyanto{
@@ -299,18 +311,22 @@ footer{
     font-size: 18px;
 }
 /*profile*/
-.wp-container-2{
+.profile__deta .wp-container-2{
     width: 60%;
     flex-wrap: nowrap !important;
     align-items: center !important;
 }
-.wp-container-4{
+.profile__deta .wp-container-2 .wp-block-image img{
+    width: 50px !important;
+}
+.profile__deta .wp-container-4{
     width: 60%;
     flex-wrap: nowrap !important;
     align-items: center !important;
 }
-.wp-block-gallery.has-nested-images figure.wp-block-image img{
-    max-width: 50px !important;
+
+.profile__deta .wp-container-4 .wp-block-image img{
+    width: 70px !important;
 }
 
 /* .category :nth-child(1){
@@ -340,9 +356,7 @@ small{
         width: 500px;
         height: auto;
     }
-    header img{
-        zoom: 2;
-    }
+    
     h1 a img{
         zoom: 1;
     }
@@ -370,6 +384,7 @@ small{
         width: 75%;
     }
     .profile1{
+        padding-top: 50px;
         width: 70%;
     }
     .profile1 img{
@@ -483,6 +498,9 @@ small{
 
 .time :first-child{
     margin-right: 10px;
+}
+.breadcrumbs{
+    margin-bottom: 35px;
 }
 .single h2{
     color: #fff;
@@ -967,5 +985,8 @@ blockquote cite {
     .lkc-url{
         margin: 5px 0 10px;
     }
+    /* .breadcrumbs{
+        margin-bottom: 35px;
+    } */
 }
 /*リンクカード設定*/
