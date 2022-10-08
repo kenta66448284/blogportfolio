@@ -210,6 +210,14 @@ h3{
     border-radius: 50%;
 
 }
+.nav-previous a{
+    display: inline;
+    background-color: #fff;
+}
+.nav-next a{
+    display: inline;
+    background-color: #fff;
+}
 /* worksアーカイブ */
 .worksflex .blogitem article{
     width: 45%;
@@ -461,15 +469,18 @@ small{
         
     
     }
-
     .nav-links a {
         zoom: 1.5;
-        
     }
     .nav-links .dots {
     zoom: 1.5;
-    
-}
+    }
+    .nav-previous a{
+        zoom: 1;
+    }
+    .nav-next a{
+        zoom: 1;
+    }
     /* .naiyou .article-image{
     display:flex;
     flex-direction:row-reverse;
