@@ -174,10 +174,33 @@ h3{
 .naiyou li{
     margin: 0 10px;
 }
-
-.nav-links .page-numbers {
+.nav-links span{
     margin:0 5px;
-    padding-top: 3px;
+    padding-top: 1px;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #299d84;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+.nav-links a {
+    margin:0 5px;
+    padding-top: 1px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #299d84;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+.nav-links .dots {
+    margin:0 5px;
+    padding-top: 1px;
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -430,19 +453,22 @@ small{
         display: flex;
         justify-content: space-between;
     }
+    
+    .nav-links span {
+        zoom: 1.5;
+        
+        color: #000;
+        
+    
+    }
 
-    .nav-links .page-numbers {
+    .nav-links a {
+        zoom: 1.5;
+        
+    }
+    .nav-links .dots {
     zoom: 1.5;
-    margin:0 5px;
-    padding-top: 3px;
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #299d84;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-
+    
 }
     /* .naiyou .article-image{
     display:flex;
