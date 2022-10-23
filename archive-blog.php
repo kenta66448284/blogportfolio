@@ -57,7 +57,7 @@
                                 <a href="<?php the_permalink(); ?>">
                                 <?php //制限文字以上の時省略記号をつける
                                     if(mb_strlen($post->post_title)>30) {
-                                    $title= mb_substr($post->post_title,0,30);
+                                    $title= mb_substr($post->post_title,0,40);
                                     echo $title . '...';
                                     } else {
                                     echo $post->post_title;
