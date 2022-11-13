@@ -342,21 +342,21 @@ footer{
     font-size: 18px;
 }
 /*profile*/
-.profile__deta .wp-container-2{
+.profile__deta .wp-block-gallery-1{
     width: 60%;
     flex-wrap: nowrap !important;
     align-items: center !important;
 }
-.profile__deta .wp-container-2 .wp-block-image img{
+.profile__deta .wp-block-gallery-1 .wp-block-image img{
     width: 50px !important;
 }
-.profile__deta .wp-container-4{
+.profile__deta .wp-block-gallery-3{
     width: 60%;
     flex-wrap: nowrap !important;
     align-items: center !important;
 }
 
-.profile__deta .wp-container-4 .wp-block-image img{
+.profile__deta .wp-block-gallery-3 .wp-block-image img{
     width: 70px !important;
 }
 
